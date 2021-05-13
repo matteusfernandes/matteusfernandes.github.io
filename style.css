@@ -1,0 +1,15 @@
+body{
+  background-color: #2a9d8f;
+}
+
+.name{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.intro{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.loc{
+  font-weight: 600;
+}
