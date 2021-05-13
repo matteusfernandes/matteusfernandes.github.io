@@ -4,6 +4,7 @@ body{
 
 .name{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration: none;
 }
 
 .intro{
@@ -12,4 +13,24 @@ body{
 
 .loc{
   font-weight: 600;
+}
+
+.git{
+  font-size: 25px;
+}
+
+.gith{
+  font-size: 30px;
+}
+
+.html{
+  font-size: 35px;
+}
+
+.css{
+  font-size: 40px;
+}
+
+.button{
+  text-decoration: none;
 }
