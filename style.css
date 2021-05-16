@@ -28,9 +28,9 @@ body{
 
 h1{
   color: white;
+  margin-top: 10px;
   padding: 0.5em;
   text-decoration: none;
-  margin-top: 10px;
 }
 
 .header p{
@@ -38,8 +38,8 @@ h1{
 }
 
 #image{
-  width: 250px;
   border-radius: 100%;
+  width: 250px;
 }
 
 .name{
@@ -47,19 +47,19 @@ h1{
 }
 
 .linkedin, .linkedin a{
-  position: absolute;
-  margin-top: 20px;
-  margin-left: 30%;
-  text-decoration: none;
   color: #e9c46a;
+  margin-left: 30%;
+  margin-top: 20px;
+  position: absolute;
+  text-decoration: none;
 }
 
 .git, .git a{
-  position: absolute;
-  margin-top: 20px;
-  margin-left: 50%;
-  text-decoration: none;
   color: #e9c46a;
+  margin-left: 50%;
+  margin-top: 20px;
+  position: absolute;
+  text-decoration: none;
 }
 
 a:hover{
