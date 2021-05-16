@@ -5,6 +5,7 @@
 
 body{
   background-color: white;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .hero{
@@ -15,14 +16,13 @@ body{
 
 .hero a{
   color: #e76f51;
-  font-family: monospace;
   padding: 10px;
   text-decoration: none;
 }
 
 .header{
   background-color: #2a9d8f;
-  padding: 150px;
+  padding: 100px;
   text-align: center;
 }
 
@@ -37,28 +37,40 @@ h1{
   color: white;
 }
 
-.header a{
-  margin-top: 100px;
-}
-
 #image{
   width: 250px;
   border-radius: 100%;
 }
 
 .name{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-decoration: none;
 }
 
-.intro{
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+.linkedin, .linkedin a{
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 30%;
+  text-decoration: none;
+  color: #e9c46a;
+}
+
+.git, .git a{
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 50%;
+  text-decoration: none;
+  color: #e9c46a;
+}
+
+a:hover{
+  font-weight: bold;
 }
 
 .loc{
   font-weight: 600;
 }
-
+ 
+/*
 .git{
   font-size: 25px;
 }
